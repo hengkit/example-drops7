@@ -16,8 +16,8 @@ function example_configure() {
   variable_set('cache_lifetime', '0');
   variable_set('page_cache_maximum_age', '900');
   variable_set('page_compression', 0);
-  variable_set('preprocess_css', 1);
-  variable_set('preprocess_js', 1);
+  variable_set('preprocess_css', 0);
+  variable_set('preprocess_js', 0);
   $search_active_modules = array(
     'apachesolr_search' => 'apachesolr_search',
     'user' => 'user',
