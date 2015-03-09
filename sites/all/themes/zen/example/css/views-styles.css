@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+
+div.views-field.views-field-field-image-source .field-content{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+
+}
